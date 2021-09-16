@@ -8,14 +8,15 @@
   <title>Colores en Inglés</title>
 </head>
 <body>
-  <h1 id="numberToGuess" >Red</h1>
+  <div id="puntaje">0</div>
+  <div id="phrase">...</div>
+  <h1 id="numberToGuess" onclick="mainFunction()" >Start</h1>
   <div id="container">
-    <div class="color" id="color1"></div>
-    <div class="color" id="color2"></div>
-    <div class="color" id="color3"></div>
-    <div class="color" id="color4"></div>
+    <button class="color" id="0"></button>
+    <button class="color" id="1"></button>
+    <button class="color" id="2"></button>
+    <button class="color" id="3"></button>
   </div>
-  <button id="start" onclick="mainFunction()" >Start</button>
   <script src="main.js"></script>
 </body>
 </html>

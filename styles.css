@@ -1,3 +1,7 @@
+/* @import "./node_modules/nes.css/css/nes.css" */
+body{
+  background-color: cadetblue;
+}
 h1{
   margin: 50px auto;
   border-radius: 10px;
@@ -6,6 +10,7 @@ h1{
   height: 60px;
   padding-top: 15px;
   text-align: center;
+  background-color: cornsilk;
 }
 #container{
   margin: 0 auto;
@@ -18,4 +23,21 @@ h1{
   border: 2px solid black;
   border-radius: 10px;
   margin: 10px;
+}
+.color:hover{
+  cursor: pointer;
+}
+h1:hover{
+  cursor: pointer;
+}
+#puntaje{
+  margin-right: 0;
+  border: 1px solid black;
+  background-color: cornsilk;
+  width: 60px;
+  height: 60px;
+  padding-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
 }
