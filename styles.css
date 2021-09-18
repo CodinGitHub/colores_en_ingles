@@ -1,28 +1,30 @@
-/* @import "./node_modules/nes.css/css/nes.css" */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body{
-  background-color: cadetblue;
+  background-color: #FF8029;
+  font-family: 'Press Start 2P', cursive;
 }
 h1{
   margin: 50px auto;
   border-radius: 10px;
-  border: 2px solid black;
   width: 300px;
   height: 60px;
   padding-top: 15px;
   text-align: center;
-  background-color: cornsilk;
+  color: #DDE53A;
 }
 #container{
   margin: 0 auto;
   width: 80%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   height: 300px;
 }
 .color{
-  border: 2px solid black;
-  border-radius: 10px;
   margin: 10px;
+  border-radius: 10px;
+  height: 150px;
+  border: 5px solid white;
 }
 .color:hover{
   cursor: pointer;
